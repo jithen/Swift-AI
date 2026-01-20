@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		06B490C2A2A5D8501D3A7199 /* Pods_swift_ai_swift_aiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F271AF81712B58E03F6A6BAF /* Pods_swift_ai_swift_aiUITests.framework */; };
+		086D3FEA738CD24FBD1E49AA /* Pods_swift_aiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E9119F7180A560CA2FFACC /* Pods_swift_aiTests.framework */; };
+		71F7174529D940EF3DF56FF2 /* Pods_swift_ai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA716C135D7C358C2D47E5FB /* Pods_swift_ai.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BDB898882F1FEE15005C75ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		992A8A78216225A42D32CCFF /* Pods-swift-ai-swift-aiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-ai-swift-aiUITests.release.xcconfig"; path = "Target Support Files/Pods-swift-ai-swift-aiUITests/Pods-swift-ai-swift-aiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA716C135D7C358C2D47E5FB /* Pods_swift_ai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_ai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43381EA64AD249EAF86BAA0 /* Pods-swift-ai-swift-aiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-ai-swift-aiUITests.debug.xcconfig"; path = "Target Support Files/Pods-swift-ai-swift-aiUITests/Pods-swift-ai-swift-aiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDB898712F1FEE13005C75ED /* swift-ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-ai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB898872F1FEE15005C75ED /* swift-aiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-aiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB898912F1FEE15005C75ED /* swift-aiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-aiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E9119F7180A560CA2FFACC /* Pods_swift_aiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_aiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE7209488848D7E51DF1BF3 /* Pods-swift-ai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-ai.release.xcconfig"; path = "Target Support Files/Pods-swift-ai/Pods-swift-ai.release.xcconfig"; sourceTree = "<group>"; };
+		D19B50616C993A3428732C69 /* Pods-swift-aiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-aiTests.debug.xcconfig"; path = "Target Support Files/Pods-swift-aiTests/Pods-swift-aiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE508E3A9E40C203934F0823 /* Pods-swift-aiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-aiTests.release.xcconfig"; path = "Target Support Files/Pods-swift-aiTests/Pods-swift-aiTests.release.xcconfig"; sourceTree = "<group>"; };
+		F271AF81712B58E03F6A6BAF /* Pods_swift_ai_swift_aiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_ai_swift_aiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7E6FF691D70D88850DE949 /* Pods-swift-ai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-ai.debug.xcconfig"; path = "Target Support Files/Pods-swift-ai/Pods-swift-ai.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -50,11 +65,15 @@
 		};
 		BDB8988A2F1FEE15005C75ED /* swift-aiTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "swift-aiTests";
 			sourceTree = "<group>";
 		};
 		BDB898942F1FEE15005C75ED /* swift-aiUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "swift-aiUITests";
 			sourceTree = "<group>";
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71F7174529D940EF3DF56FF2 /* Pods_swift_ai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086D3FEA738CD24FBD1E49AA /* Pods_swift_aiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06B490C2A2A5D8501D3A7199 /* Pods_swift_ai_swift_aiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5E5ABCE557076A452253C1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA716C135D7C358C2D47E5FB /* Pods_swift_ai.framework */,
+				F271AF81712B58E03F6A6BAF /* Pods_swift_ai_swift_aiUITests.framework */,
+				C1E9119F7180A560CA2FFACC /* Pods_swift_aiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BDB898682F1FEE13005C75ED = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +124,8 @@
 				BDB8988A2F1FEE15005C75ED /* swift-aiTests */,
 				BDB898942F1FEE15005C75ED /* swift-aiUITests */,
 				BDB898722F1FEE13005C75ED /* Products */,
+				BDF852A9B11C47C9E6A43270 /* Pods */,
+				A5E5ABCE557076A452253C1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +139,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BDF852A9B11C47C9E6A43270 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD7E6FF691D70D88850DE949 /* Pods-swift-ai.debug.xcconfig */,
+				CCE7209488848D7E51DF1BF3 /* Pods-swift-ai.release.xcconfig */,
+				B43381EA64AD249EAF86BAA0 /* Pods-swift-ai-swift-aiUITests.debug.xcconfig */,
+				992A8A78216225A42D32CCFF /* Pods-swift-ai-swift-aiUITests.release.xcconfig */,
+				D19B50616C993A3428732C69 /* Pods-swift-aiTests.debug.xcconfig */,
+				DE508E3A9E40C203934F0823 /* Pods-swift-aiTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +160,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDB8989A2F1FEE15005C75ED /* Build configuration list for PBXNativeTarget "swift-ai" */;
 			buildPhases = (
+				28ADCE7AD2B68D398EFDD05C /* [CP] Check Pods Manifest.lock */,
 				BDB8986D2F1FEE13005C75ED /* Sources */,
 				BDB8986E2F1FEE13005C75ED /* Frameworks */,
 				BDB8986F2F1FEE13005C75ED /* Resources */,
@@ -124,8 +173,6 @@
 				BDB898732F1FEE13005C75ED /* swift-ai */,
 			);
 			name = "swift-ai";
-			packageProductDependencies = (
-			);
 			productName = "swift-ai";
 			productReference = BDB898712F1FEE13005C75ED /* swift-ai.app */;
 			productType = "com.apple.product-type.application";
@@ -134,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDB8989F2F1FEE15005C75ED /* Build configuration list for PBXNativeTarget "swift-aiTests" */;
 			buildPhases = (
+				54C69B7AB573B2FF9C077C4A /* [CP] Check Pods Manifest.lock */,
 				BDB898832F1FEE15005C75ED /* Sources */,
 				BDB898842F1FEE15005C75ED /* Frameworks */,
 				BDB898852F1FEE15005C75ED /* Resources */,
+				2AD9ED2518DCAE6B005F2D58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,8 +196,6 @@
 				BDB8988A2F1FEE15005C75ED /* swift-aiTests */,
 			);
 			name = "swift-aiTests";
-			packageProductDependencies = (
-			);
 			productName = "swift-aiTests";
 			productReference = BDB898872F1FEE15005C75ED /* swift-aiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDB898A22F1FEE15005C75ED /* Build configuration list for PBXNativeTarget "swift-aiUITests" */;
 			buildPhases = (
+				558887A6FB616AC4F43955E4 /* [CP] Check Pods Manifest.lock */,
 				BDB8988D2F1FEE15005C75ED /* Sources */,
 				BDB8988E2F1FEE15005C75ED /* Frameworks */,
 				BDB8988F2F1FEE15005C75ED /* Resources */,
@@ -170,8 +218,6 @@
 				BDB898942F1FEE15005C75ED /* swift-aiUITests */,
 			);
 			name = "swift-aiUITests";
-			packageProductDependencies = (
-			);
 			productName = "swift-aiUITests";
 			productReference = BDB898912F1FEE15005C75ED /* swift-aiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +290,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28ADCE7AD2B68D398EFDD05C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-ai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AD9ED2518DCAE6B005F2D58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-aiTests/Pods-swift-aiTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift-aiTests/Pods-swift-aiTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift-aiTests/Pods-swift-aiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54C69B7AB573B2FF9C077C4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-aiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		558887A6FB616AC4F43955E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift-ai-swift-aiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDB8986D2F1FEE13005C75ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,6 +416,7 @@
 /* Begin XCBuildConfiguration section */
 		BDB8989B2F1FEE15005C75ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7E6FF691D70D88850DE949 /* Pods-swift-ai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +444,7 @@
 		};
 		BDB8989C2F1FEE15005C75ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE7209488848D7E51DF1BF3 /* Pods-swift-ai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -457,6 +591,7 @@
 		};
 		BDB898A02F1FEE15005C75ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D19B50616C993A3428732C69 /* Pods-swift-aiTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +610,7 @@
 		};
 		BDB898A12F1FEE15005C75ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE508E3A9E40C203934F0823 /* Pods-swift-aiTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -493,6 +629,7 @@
 		};
 		BDB898A32F1FEE15005C75ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43381EA64AD249EAF86BAA0 /* Pods-swift-ai-swift-aiUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -509,6 +646,7 @@
 		};
 		BDB898A42F1FEE15005C75ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992A8A78216225A42D32CCFF /* Pods-swift-ai-swift-aiUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
